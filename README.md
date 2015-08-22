@@ -1,2 +1,2 @@
-# google-homepage
+# theodinproject.com
 This is for theodinproject.com
