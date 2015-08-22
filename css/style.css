@@ -1,0 +1,101 @@
+body {
+    font-size: small;
+    background: #fff;
+    color: #666;
+    height: 100%;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+.avatar {
+    background-image: url(https://lh4.googleusercontent.com/-CLojC0_yHBs/AAAAAAAAAAI/AAAAAAAAAAA/xF5U-F2jr2A/s32-c/photo.jpg);
+    display: block;
+    border-radius: 50%;
+    margin: -1px;
+    height: 32px;
+    width: 32px;
+}
+.messages {
+    background-image: url('//ssl.gstatic.com/gb/images/i1_0430b5ba.png')!important;
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+    cursor: default;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.calendar {
+    background-position: -132px -38px;
+    opacity: .55;
+    margin-right: 10px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+header {
+    padding: 15px 25px;
+}
+.menu {
+    margin-right: 15px;
+    position: relative;
+    top: 8px;
+}
+.logo-wrapper {
+    height: 231px;
+    margin-top: 80px;
+}
+.logo {
+    padding-top: 112px;
+}
+input[type="text"] {
+    -webkit-box-sizing: border-box;
+    height: 35px;
+    width: 618px;
+    overflow: hidden;
+    padding: 6px 9px 0;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+.mic {
+    background: url(data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=) no-repeat 99% 50%;
+    background-size: 14px 19px;
+    display: inline-block;
+}
+input[type="submit"] {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #dcdcdc;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    color: #444;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 11px 8px;
+    min-width: 54px;
+    padding: 8px;
+    text-align: center;
+}
+footer .wrapper {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;   
+    padding: 0 15px;
+}
+.wrapper span {
+    margin: 0 15px;
+}
