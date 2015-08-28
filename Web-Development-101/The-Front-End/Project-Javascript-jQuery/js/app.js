@@ -2,7 +2,7 @@
 var gridBoxes = 5;
 
 $(document).ready(function() {
-	// Function call to show grid passing 'widthSizeBoxes'
+	// Function call to show grid passing 'gridBoxes'
 	// as a parameter
 	grids(gridBoxes);
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 // Generate grid
 function grids(w) {
 	// Box sizes are calculated and used for width and height
-	// Parameter 'w' = 'widthSizeBoxes'
+	// Parameter 'w' = 'gridBoxes'
 	var boxSize = (960 - 2 * w) / w;
 	var gridWrapper = $(".grid_wrapper").html("");
 
