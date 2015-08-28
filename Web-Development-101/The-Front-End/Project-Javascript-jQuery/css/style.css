@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 0 0 5px 0;
+    letter-spacing: -4px;
+}
+center {
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #F1EEEE;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+}
+button:hover {
+    border: 1px solid #000;
+}
+.grid_wrapper, header {
+    width: 962px;
+    margin: 0 auto;
+}
+.square {
+    border: 1px solid #999;
+    background: #F1EEEE;
+    float: left;
+    opacity: 1;
+}
+.square_hover {
+    background: #999;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+.center {
+    text-align: center;
+}
