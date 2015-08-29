@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 	// Clear button
 	$(".clear").on("click", function() {
-		$(".square").removeClass("square_hover");
+		$(".square").removeClass("square_hover").css("background", "");
 	});
 	
 	// Random colors
